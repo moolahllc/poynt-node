@@ -14,8 +14,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "npm test",
-    "publish": "npm publish --access public"
+    "test": "npm test"
   },
   "publicConfig": {
     "access": "public"
