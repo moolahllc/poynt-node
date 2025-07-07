@@ -1,13 +1,13 @@
 {
-  "name": "poynt",
-  "version": "0.0.44",
+  "name": "@moolah-llc/poynt-sdk",
+  "version": "0.2.0",
   "description": "Poynt Node.js SDK",
   "main": "lib/index.js",
   "dependencies": {
     "async": "^2.5.0",
     "debug": "^3.0.0",
     "ff": "^0.2.2",
-    "jsonwebtoken": "^7.4.3",
+    "jsonwebtoken": "^9.0.2",
     "request": "^2.81.0",
     "uuid": "^9.0.1",
     "validator": "^13.7.0"
@@ -16,17 +16,20 @@
   "scripts": {
     "test": "npm test"
   },
+  "publicConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/poynt/poynt-node.git"
+    "url": "git+https://github.com/moolahllc/poynt-node.git"
   },
   "keywords": [
     "Poynt"
   ],
-  "author": "Charles Feng <c@poynt.com>",
+  "author": "Michael michael@moolah.cc",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/poynt/poynt-node/issues"
+    "url": "https://github.com/moolahllc/poynt-node/issues"
   },
-  "homepage": "https://github.com/poynt/poynt-node#readme"
+  "homepage": "https://github.com/moolahllc/poynt-node#readme"
 }

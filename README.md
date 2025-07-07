@@ -155,6 +155,10 @@ We'll handle all the request signing, token refresh, etc. for you!
 - `getBusinessUsers`
 - `getBusinessUser`
 
+### [Surcharge](https://docs.poynt.com/api-reference/index.html#surcharge-index)
+
+- `getSurcharge`
+
 ### Business Applications
 
 - `getBusinessApplication`
@@ -211,6 +215,13 @@ poynt.charge(
       currency: "USD",
       transactionAmount: 500,
       orderAmount: 500,
+      transactionFees: {
+        Amount: 0,
+				FeeType: "",
+				Signature: "",
+				Required: false,
+				FeeProgramType: "",
+				FeeProgramId: "",
     },
     businessId: "84fa5bf5-bd51-4653-80de-ce46348f7659",
     emailReceipt: true,
