@@ -1,6 +1,6 @@
 {
   "name": "@moolah-llc/poynt-sdk",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Poynt Node.js SDK",
   "main": "lib/index.js",
   "dependencies": {
